@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D592036026566009000D1012 /* MobileSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592035F26566009000D1012 /* MobileSignInViewController.swift */; };
+		D592036226568DFA000D1012 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592036126568DFA000D1012 /* FinalViewController.swift */; };
+		D59203642656D858000D1012 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59203632656D858000D1012 /* Helper.swift */; };
 		D5BEFB1926544040007326BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BEFB1826544040007326BB /* AppDelegate.swift */; };
 		D5BEFB1B26544040007326BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BEFB1A26544040007326BB /* SceneDelegate.swift */; };
-		D5BEFB1D26544040007326BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BEFB1C26544040007326BB /* ViewController.swift */; };
+		D5BEFB1D26544040007326BB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BEFB1C26544040007326BB /* SignInViewController.swift */; };
 		D5BEFB2026544040007326BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BEFB1E26544040007326BB /* Main.storyboard */; };
 		D5BEFB2226544043007326BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BEFB2126544043007326BB /* Assets.xcassets */; };
 		D5BEFB2526544043007326BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BEFB2326544043007326BB /* LaunchScreen.storyboard */; };
+		D5BEFB302654469A007326BB /* GothamRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5BEFB2F2654469A007326BB /* GothamRegular.otf */; };
+		D5BEFB32265449C5007326BB /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BEFB31265449C5007326BB /* RegistrationViewController.swift */; };
+		D5BEFB362654D2FF007326BB /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BEFB352654D2FF007326BB /* OTPViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D5BEFB1526544040007326BB /* BloomCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloomCommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D592035F26566009000D1012 /* MobileSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileSignInViewController.swift; sourceTree = "<group>"; };
+		D592036126568DFA000D1012 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		D59203632656D858000D1012 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		D5BEFB1526544040007326BB /* LoginFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5BEFB1826544040007326BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5BEFB1A26544040007326BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D5BEFB1C26544040007326BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5BEFB1C26544040007326BB /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D5BEFB1F26544040007326BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5BEFB2126544043007326BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5BEFB2426544043007326BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5BEFB2626544043007326BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5BEFB2F2654469A007326BB /* GothamRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRegular.otf; sourceTree = "<group>"; };
+		D5BEFB31265449C5007326BB /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		D5BEFB352654D2FF007326BB /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +60,7 @@
 		D5BEFB1626544040007326BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5BEFB1526544040007326BB /* BloomCommerce.app */,
+				D5BEFB1526544040007326BB /* LoginFlow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,21 +70,51 @@
 			children = (
 				D5BEFB1826544040007326BB /* AppDelegate.swift */,
 				D5BEFB1A26544040007326BB /* SceneDelegate.swift */,
-				D5BEFB1C26544040007326BB /* ViewController.swift */,
-				D5BEFB1E26544040007326BB /* Main.storyboard */,
-				D5BEFB2126544043007326BB /* Assets.xcassets */,
+				D5BEFB33265449D5007326BB /* Controller */,
+				D5BEFB34265449E0007326BB /* View */,
+				D5BEFB2E26544587007326BB /* Resources */,
 				D5BEFB2326544043007326BB /* LaunchScreen.storyboard */,
 				D5BEFB2626544043007326BB /* Info.plist */,
 			);
 			path = BloomCommerce;
 			sourceTree = "<group>";
 		};
+		D5BEFB2E26544587007326BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5BEFB2F2654469A007326BB /* GothamRegular.otf */,
+				D5BEFB2126544043007326BB /* Assets.xcassets */,
+				D59203632656D858000D1012 /* Helper.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D5BEFB33265449D5007326BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D5BEFB31265449C5007326BB /* RegistrationViewController.swift */,
+				D5BEFB1C26544040007326BB /* SignInViewController.swift */,
+				D5BEFB352654D2FF007326BB /* OTPViewController.swift */,
+				D592035F26566009000D1012 /* MobileSignInViewController.swift */,
+				D592036126568DFA000D1012 /* FinalViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D5BEFB34265449E0007326BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5BEFB1E26544040007326BB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5BEFB1426544040007326BB /* BloomCommerce */ = {
+		D5BEFB1426544040007326BB /* LoginFlow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5BEFB2926544043007326BB /* Build configuration list for PBXNativeTarget "BloomCommerce" */;
+			buildConfigurationList = D5BEFB2926544043007326BB /* Build configuration list for PBXNativeTarget "LoginFlow" */;
 			buildPhases = (
 				D5BEFB1126544040007326BB /* Sources */,
 				D5BEFB1226544040007326BB /* Frameworks */,
@@ -82,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = BloomCommerce;
+			name = LoginFlow;
 			productName = BloomCommerce;
-			productReference = D5BEFB1526544040007326BB /* BloomCommerce.app */;
+			productReference = D5BEFB1526544040007326BB /* LoginFlow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D5BEFB1026544040007326BB /* Build configuration list for PBXProject "BloomCommerce" */;
+			buildConfigurationList = D5BEFB1026544040007326BB /* Build configuration list for PBXProject "LoginFlow" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5BEFB1426544040007326BB /* BloomCommerce */,
+				D5BEFB1426544040007326BB /* LoginFlow */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +169,7 @@
 				D5BEFB2526544043007326BB /* LaunchScreen.storyboard in Resources */,
 				D5BEFB2226544043007326BB /* Assets.xcassets in Resources */,
 				D5BEFB2026544040007326BB /* Main.storyboard in Resources */,
+				D5BEFB302654469A007326BB /* GothamRegular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5BEFB1D26544040007326BB /* ViewController.swift in Sources */,
+				D5BEFB362654D2FF007326BB /* OTPViewController.swift in Sources */,
+				D592036226568DFA000D1012 /* FinalViewController.swift in Sources */,
+				D5BEFB1D26544040007326BB /* SignInViewController.swift in Sources */,
 				D5BEFB1926544040007326BB /* AppDelegate.swift in Sources */,
 				D5BEFB1B26544040007326BB /* SceneDelegate.swift in Sources */,
+				D592036026566009000D1012 /* MobileSignInViewController.swift in Sources */,
+				D5BEFB32265449C5007326BB /* RegistrationViewController.swift in Sources */,
+				D59203642656D858000D1012 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +341,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Darshil.BloomCommerce;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darshil.-LoginFlow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +360,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Darshil.BloomCommerce;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darshil.-LoginFlow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +370,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5BEFB1026544040007326BB /* Build configuration list for PBXProject "BloomCommerce" */ = {
+		D5BEFB1026544040007326BB /* Build configuration list for PBXProject "LoginFlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5BEFB2726544043007326BB /* Debug */,
@@ -331,7 +379,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5BEFB2926544043007326BB /* Build configuration list for PBXNativeTarget "BloomCommerce" */ = {
+		D5BEFB2926544043007326BB /* Build configuration list for PBXNativeTarget "LoginFlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5BEFB2A26544043007326BB /* Debug */,
