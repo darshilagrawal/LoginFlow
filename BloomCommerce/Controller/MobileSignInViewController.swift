@@ -22,7 +22,6 @@ class MobileSignInViewController: UIViewController {
         self.navigationController?.interactivePopGestureRecognizer?.delegate=nil
         mobileTextField.underlinedField()
         mobileTextField.keyboardType = .phonePad
-        
     }
     
     @IBAction func signInButtonTapped(_ sender: UIButton) {
@@ -35,11 +34,9 @@ class MobileSignInViewController: UIViewController {
                 Helper.sendAlert("Please Enter Mobile Number", vc: self)
             }else{
                 performSegue(withIdentifier: OTPSegue, sender: self)
-
-        }
-        
+        }  
     }
-    }
+}
     
     @IBAction func signUpButtonTapped(_ sender: UIButton) {
         
