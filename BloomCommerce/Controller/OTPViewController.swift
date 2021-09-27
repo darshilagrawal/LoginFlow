@@ -27,7 +27,6 @@ class OTPViewController: UIViewController {
         otpField4.underlinedField()
         let tapGesture=UITapGestureRecognizer(target: self, action: #selector(self.resignKeyboard(_:)))
         self.view.addGestureRecognizer(tapGesture)
-        
 
         otpField1.addTarget(self, action: #selector(self.changeTextField(textField:)), for: UIControl.Event.editingChanged)
         otpField2.addTarget(self, action: #selector(self.changeTextField(textField:)), for: UIControl.Event.editingChanged)
@@ -36,7 +35,7 @@ class OTPViewController: UIViewController {
         otpField1.becomeFirstResponder()
     }
     
-    @objc func resignKeyboard(_ sender:UITapGestureRecognizer){
+    @objc func resignKeyboard(_ sender:UITapGestureRecognizer) {
         self.view.endEditing(true)
     }
 
@@ -50,13 +49,10 @@ class OTPViewController: UIViewController {
             performSegue(withIdentifier: finalScreen, sender: self)
         }else{
             Helper.sendAlert("Enter All The Values of the OTP", vc: self)
-        }
-        
-        
-        
+        }  
     }
     
-    @objc func changeTextField(textField:UITextField){
+    @objc func changeTextField(textField:UITextField) {
         let text=textField.text
         if text?.utf16.count == 1 {
             switch textField {
@@ -82,8 +78,4 @@ class OTPViewController: UIViewController {
             }
         }
     }
-    
-    
-
-
 }
