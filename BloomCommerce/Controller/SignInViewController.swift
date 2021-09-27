@@ -30,7 +30,7 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         let password=passwordTextField.text ?? ""
         if username.isEmpty || password.isEmpty{
             Helper.sendAlert("Enter Both Username and Password", vc: self)
-        }else{
+        } else {
             performSegue(withIdentifier: finalScreen, sender: self)
         }
         
@@ -38,13 +38,11 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func signUpButtonTapped(_ sender: UIButton) {
         performSegue(withIdentifier: signInToSignUp, sender: self)
-        print("Called")
-       
     }
 }
 
 //MARK:- Text Field Delegate
-extension SignInViewController{
+extension SignInViewController {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
